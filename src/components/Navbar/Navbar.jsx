@@ -34,6 +34,7 @@ const Navbar = () => {
     { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
     { id: "education", label: "Education" },
+    { id: "contact", label: "Contact"},
   ];
 
   return (
@@ -53,7 +54,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8 text-gray-300">
+        <ul className="hidden md:flex space-x-4 text-gray-300">
           {menuItems.map((item) => (
             <li
               key={item.id}
